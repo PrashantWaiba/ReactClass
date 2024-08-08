@@ -1,0 +1,38 @@
+header{
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    border: black 3px;
+}
+body{
+    height: 100vh;
+    position: relative;
+}
+ul{
+    display: flex;
+    font-size: larger;
+    font-family: monospace;
+}
+.photo{
+    height: 200px;
+}
+h1{
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-family: serif;
+    color: black;
+}
+footer {
+    background-color: burlywood;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+  ul li{
+    list-style: none;
+    padding-left: 35px;padding-top: 35px;
+ 
+  }
